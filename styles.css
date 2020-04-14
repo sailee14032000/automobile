@@ -1,7 +1,7 @@
 *{
 	margin:0;
 	padding: 0;
-    font-family: 'Assistant',sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 body{
 	width: 100vw;
@@ -16,7 +16,7 @@ body{
 }
 .nav-ul{
 	display: flex;
-	flex-direction: row;
+		flex-direction: row;
 }
 .nav-list{
 	padding: 5px 20px;
@@ -238,10 +238,11 @@ li{
 }
 
 #electric-cycle{
-	font-size: 30px;
+	font-size:25px;
 	font-weight: 
    800;
-
+   margin-top: 70px;
+   margin-left: 20px;
 }
 
 button{
@@ -252,9 +253,11 @@ button{
     outline: none;
 	width: 150px;
 	font-size: 25px;
-	padding: 15px 10px;
+	padding: 5px 8px;
 	text-align: center;
 	display: block;
+	margin-left: 20px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	background-image: linear-gradient(to right,hsl(360, 91%, 39%),hsl(0,0%,10%));
 }
@@ -264,13 +267,26 @@ button{
 		flex-direction: column;
 		align-items: center;
 	}
-	.product-pic-related,.logo-related{
+	.product-pic-related{
 		width: 95vw;
 		margin-right: 0;
-		
+
+       height:50vh;		
 
 
 	}
+	.product-pic{
+		height: 100%;
+	}
+	.product-pic1{
+		height: 100%;
+	}
+	.logo-related{
+		width: 95vw;
+		margin-right: 0;
+		margin-top: 90px;
+
+	}	
 	.nav-list{
 		display: none;
 	}
